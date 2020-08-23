@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+	
+	font-family: 'Poppins', 'sans-serif';
+	background-color: #FFFFFF;
+}
+
+/*Top-bar*/
+
+.topbar{
+
+	background-color: #061566;
+}
+
+.topbar h6{
+
+	padding-top: 0.5em;
+	padding-left: 1.5rem;
+	color: #FFFFFF;
+}
+
+.social a{
+
+	font-size: 1.45em;
+	color: #FFFFFF;
+}
+
+.vl{
+
+	border-right: .05em solid white; 
+	height: 1.25em;
+	margin-top: 0.55em;
+	margin-bottom: 0.5em;
+}
+
+/*Mid Bar*/
+
+.midbar{
+
+	background-color: #FFFFFF;
+	height: 10em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.midbar img{
+
+	padding-left: 2em;
+}
+
+.midbar h6{
+
+	padding-left: 1em;
+	font-size: 1.25em;
+}
+
+.midbar h5{
+
+	font-size: 0.75em;
+}
+
+/*Media Queries for Midbar*/
+
+@media (max-width: 576px) {
+
+.midbar{
+
+	height: 10em;
+	margin-bottom: -3.5em;
+}
+
+}
+
+/*Nav Bar*/
+
+.navbar{
+
+	background-color: #061566;
+}
+
+.navbar-nav li{
+
+	padding-right: 2.5em;
+	color: #000000;
+}
+
+.navbar-nav a{
+
+	letter-spacing: 0.15em;
+}
+
+.nav-link:hover {
+
+	background-color: #000000;
+	color: #E5FF00;
+}
+
+/*Dropdown Menu*/
+
+.dropdown-menu{
+
+	background-color: #ACB7F1;
+}
+
+/*Image Slider*/
+
+.carousel-inner img{
+width: 100%;
+height: 700px;
+}
+
+/*Media Queries for Image Slider*/
+
+@media (max-width: 576px){
+
+.carousel-inner img{
+width: 100%;
+height: 350px;
+}
+
+}
+
+/*Two Column Section*/
+
+.updates{
+
+	background-color: #404871;
+	margin-top: 3em; 
+	margin-bottom: 0.75em;
+	border: 0.5px solid #ffffff;
+}
+
+.btn-a{
+
+	color: #000000;
+	margin-top: 2em;
+	width: 50%;
+	padding: 0.2em;
+}
+
+.btn-b{
+
+	color: #000000;
+	margin-top: 2em;
+	width: 40%;
+	padding: 0.2em;
+}
+
+/*Cards*/
+
+.card{
+
+	margin-bottom: 1.5em;
+}
+
+.card h4{
+	
+	text-align: center;
+}
+
+.card p{
+	
+	text-align: left;
+}
